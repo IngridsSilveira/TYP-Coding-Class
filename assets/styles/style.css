@@ -1,0 +1,87 @@
+main {
+  height: 90vh;
+  background-color: #f1f3f4;
+  flex-direction: column;
+}
+
+nav {
+  height: 10vh;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+h2 > span {
+  color: #149ae3;
+  font-size: 2.4rem;
+  margin: 0;
+}
+p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 550px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+span {
+  font-size: 16px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.btn-primary {
+  background-color: #149ae3;
+  border: none;
+}
+.btn-secondary {
+  background-color: #d6d8d8e0;
+  color: black;
+  border: none;
+}
+#check-btn {
+  display: none;
+  transition: 0.5s;
+}
+.mode label {
+  cursor: none;
+  color: #0099ff;
+  font-size: 1.5em;
+  transition: 0.5s;
+}
+.btn {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+  h2,
+  h2 > span {
+    text-align: center;
+    width: 350px;
+    font-size: 1.9rem;
+  }
+  p {
+    width: auto;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    width: 400px;
+  }
+  p {
+    width: 480px;
+    font-size: 1.3rem;
+  }
+}
